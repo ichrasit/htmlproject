@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Html Project</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="welcome.html">
+        <div>
+            <label for="username">Enter username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        </div>
+        <div>
+            <label for="password"> Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+        <div>
+            <label for="text">Enter phone number:</label>
+            <input type="text" id="text" name="text" pattern="\d*" placeholder="Enter your phone number"  required>
+        </div>
+        <div>
+            <label for="checkbox">I have read the <a href="terms.html">terms</a> i accept</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
